@@ -1,0 +1,77 @@
+html {
+    background-image: url(photo1.JPG);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#Me {      /* <------------------ WYSRODKOWAC */
+    padding: 64px;
+}
+
+.xlarge-font {
+    font-size: 64px
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-image: url(color.png);
+    background-size: cover;
+    top: 50%;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.button1 {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: lightcoral;
+    top: 50%;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: rgb(248, 177, 216); 
+    color: rgb(0, 0, 0);
+    }
+
+
+@media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+    width: 100%;
+    text-align: center;
+    }
+
+    img {
+    margin: auto;
+    }
+}
+
+.MeStart {
+    height: 30%;
+    width: 45%;
+    background-color:rgb(255, 243, 240);
+    color:rgb(24, 24, 24);
+    padding:20px;
+    float: right;
+    padding: 20px;
+    border-radius: 15px;
+    }
+

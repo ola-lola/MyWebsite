@@ -1,0 +1,221 @@
+html {
+    background-image: url(color.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+/*********** img text: my very firs website */
+.imgTOP {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*********** Main menu navigation*/
+.navi {
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+    background-image: url(c3.png);
+    background-size: cover;
+    opacity: 75%;
+    position: sticky;
+    top: 0;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 28px;
+    text-decoration: none;
+}
+/************ Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(187, 187, 187);
+    color: rgb(255, 255, 255), 230);
+}
+
+  
+/************ H1 settings */
+h1 {
+    text-align: center;
+}
+
+
+/************Slide photo settings */
+* {box-sizing: border-box;}
+	
+	.img-comp-container {
+	  position: relative;
+	  height: 500px; /*should be the same height as the images*/
+	}
+	.img-comp-img {
+	  position: absolute;
+	  width: auto;
+	  height: auto;
+	  overflow:hidden;
+	}
+	.img-comp-img img {
+	  display:block;
+	  vertical-align:middle;
+	}
+	.img-comp-slider {
+	  position: absolute;
+	  z-index:9;
+	  cursor: ew-resize;
+	  /*set the appearance of the slider:*/
+	  width: 40px;
+	  height: 40px;
+	  background-color: rgb(241, 241, 241);
+	  opacity: 0.7;
+	  border-radius: 50%;
+	}
+
+#under-slide-photo {
+    color: white;
+    font-size: 12px;
+}
+
+/*********** Button: ASK ME */
+button {
+    background-color: #bedce4; color: black; 
+    border: none;
+    color: rgb(44, 44, 44);
+    padding: 20px 44px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    top: 50%;
+  }
+button:hover {
+    background-color: rgb(248, 177, 216); 
+    color: rgb(46, 46, 46);
+    }
+.wrapper {
+    text-align: center;
+}
+
+/*********** Sections of trips */
+.Australia {
+    height: 30%;
+    width: 45%;
+    background-color:rgb(255, 255, 255);
+    color:rgb(24, 24, 24);
+    padding:20px;
+    float: left;
+    }
+
+.Bali {
+    height: 30%;
+    width: 45%;
+    background-color:rgb(255, 255, 255);
+    color:rgb(24, 24, 24);
+    padding:20px;
+    float: right;
+    }
+}
+#Rosja {
+    height: 300px;
+    width: 45%;
+    background-color:rgb(255, 255, 255);
+    color:rgb(24, 24, 24);
+    padding:20px;
+}
+
+
+/*********** Social media links */
+#facebooklink {
+    color: rgb(255, 255, 255);
+}
+ .fa {    /* Style all font awesome icons for FACEBOOK */
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+     border-radius: 50%;
+     border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+/******** Container */
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #Australia {
+        padding: 58px;
+    }
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both
+    }
+    
+    .column-33 {
+        float: left;
+        width: 33.33333%;
+        padding: 20px;
+    }
+    
+    .large-font {
+        font-size: 48px;
+    }
+    
+    .xlarge-font {
+        font-size: 64px
+    }
+    
+    .button {
+        border: none;
+        color: white;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #4CAF50;
+    }
+    
+    .imgTOP {
+        height: auto;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 1000px) {
+        .column-66,
+        .column-33 {
+        width: 100%;
+        text-align: center;
+        }
+        img {
+        margin: auto;
+        }
+    }
+
+
+.column {
+        float: left;
+        width: 25%;
+        padding: 10px;
+      }
+
+
+.column img {
+height: 100%;
+width: 100%;
+padding:3px;
+
+}
